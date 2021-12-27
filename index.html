@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Captain Nickilism</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/js/all.js">
+		<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body>
+
+
+		<header class="topnav"> <!--The section header, give general layout and then nested sepcific styles-->
+				<ul class="navigation">
+					<li> <a href="#home" class="nav-link" id="nav-home"><h2 lang="en">Home</h2><h2 lang="it">Home</h2></a></li> 	<!--These are the header's links -->
+					<li> <a href="#skills" class="nav-link" id="nav-skills"><h2 lang="en">Skills</h2><h2 lang="it">Competenze</h2></a></li> 				<!--These are the header's links -->
+					<li> <a href="#hobbies" class="nav-link" id="nav-hobbies"><h2 lang="en">Passions</h2><h2 lang="it">Passioni</h2></a></li> 	<!--These are the header's links -->
+					<li> <a href="#contact" class="nav-link" id="nav-contact"><h2 lang="en">Contacts</h2><h2 lang="it">Contatti</h2></a></li> 			<!--These are the header's links -->
+					<li> <a href="javascript:void(0);" class="icon" onclick=""> <!--The function to make the fa-bars work -->
+					  <i class="fa fa-bars"></i> <!--Menu icon on mobile -->
+					</a></li>
+				</ul>
+				<div class="logo">
+					<h1><font color="#90B693">Captain</font><font color="#E79574">Nickilism</font></h1>
+				</div>
+				<div class="buttons">
+					<ul class="social">
+						<li><a class="social-icon" href=""><img src="icons\facebook.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\instagram.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\twitter.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\linkedin.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\gmail.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\start2impact.png"></a></li>
+						<li><a class="social-icon" href=""><img src="icons\github.png"></a></li>
+					</ul>
+					<ul class="switchers">
+						<li><button type="button" name="lang"  class="switch-lang"><img src="icons\language.png"></button></li>
+						<li><button type="button" name="dark" onclick="toggleMode()"><img src="icons\light.png"></button></li>
+					</ul>
+				</div>
+		</header>
+
+		<div class="page">
+
+			<div class="section zero-sec" id="home">
+
+				<h2 lang="en">Welcome.</h2>
+					<h2 lang="it">Benvenuti.</h2>
+				<div class="frame">
+					<div class="photo">
+						<img src="PHOTOLINK.jpg">
+					</div>
+					<div class="presentation">
+						<p lang="en">My name is</p>
+							<p lang="it">Mi chiamo</p>
+								<h1> Niccolò Pagnacco.</h1><br>
+						<p lang="en">I'm a</p>
+							<p lang="it">Sono un</p>
+								<h1 lang="en">digital creative.</h1>
+									<h1 lang="it">creativo digitale.</h1>
+					</div>
+				</div>
+				<p lang="en">What does it mean?</p><p lang="it">Cosa vuol dire?</p>
+			</div>
+
+			<div class="section first-sec" id="experience">
+				<h1 class="section-title" lang="en">Experience</h1><h1 class="section-title" lang="it">Esperienze</h1>
+				<div class="container">
+					<div class="tab digital">
+						<h2 class="tab-title" lang="en">Digital</h2><h2 class="tab-title" lang="it">Digitale</h2>
+						<ul class="tab-links">
+							<li class="link"><a>Web Design</a></li>
+							<li class="link"><a>Graphic Design</a></li>
+							<li class="link"><a>Social Media MGMT</a></li>
+							<li class="link"><a>Digital Advertising</a></li>
+							<li class="link"><a>Copywriting</a></li>
+							<li class="link"><a lang="en">Market Research</a><a lang="it">Ricerca di Mercato</a></li>
+						</ul>
+					</div>
+					<div class="preview">
+						<img src="xxx.jpg" id="preview-img">
+					</div>
+					<div class="tab creativity">
+						<h2 class="tab-title" lang="en">Creativity</h2><h2 class="tab-title" lang="it">Creatività</h2> <!-- WARNING: SISTEMARE CONTENUTI -->
+						<ul class="tab-links">
+							<li class="link"><a lang="en">Short stories</a><a lang="it">Racconti brevi</a></li>
+							<li class="link"><a lang="en">Scriptwriting</a><a lang="it">Sceneggiatura</a></li>
+							<li class="link"><a lang="en">Lyrics</a><a lang="it">Testi musicali</a></li>
+							<li class="link"><a lang="en">Business sheets</a><a lang="it">Documenti aziendali</a></li>
+							<li class="link"><a lang="en">Thesis</a><a lang="it">Tesistica</a></li>
+							<li class="link"><a>Narrative design</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="section second-sec" id="skills"> <!--SKILLS SECTION-->
+				<h1 class="section-title" lang="en">Skills</h1><h1 class="section-title" lang="it">Conoscenze</h1>
+				<div class="container">
+					<div class="par" id="par1"> <!--Softwares screen-->
+							<h2 class="par-title" lang="en">Softwares</h2><h2 class="par-title" lang="it">Programmi</h2>
+							<div class="slot"> <!-- Fireworks -->
+								<a class="icon" href="https://www.adobe.com/mena_en/"><img src="icons\fireworks.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Adobe Fireworks</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Image editing</h4><h4 class="subtitle" lang="it">Editor di immagini</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:90%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- InDesign -->
+								<a class="icon" href="https://www.adobe.com/it/products/indesign.html?mv=search&mv=search&sdid=LCDWTLJX&ef_id=CjwKCAiAnO2MBhApEiwA8q0HYVk1AVL7fuHyLaGL0XFe25AMe5YjlLnADBbs62CZpVdRMRf0bzinjxoCNWkQAvD_BwE:G:s&s_kwcid=AL!3085!3!474055207627!e!!g!!indesign%20adobe!1457478698!56999189672&gclid=CjwKCAiAnO2MBhApEiwA8q0HYVk1AVL7fuHyLaGL0XFe25AMe5YjlLnADBbs62CZpVdRMRf0bzinjxoCNWkQAvD_BwE"><img src="icons\indesign.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Adobe InDesign</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Layout and page design</h4><h4 class="subtitle" lang="it">Design di layout e pagine</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:75%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Premiere -->
+								<a class="icon" href="https://www.adobe.com/products/premiere.html"><img src="icons\premiere.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Adobe Premiere</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Video editing</h4><h4 class="subtitle" lang="it">Montaggio video</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:60%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Procreate -->
+								<a class="icon" href="https://procreate.art/"><img src="icons\procreate.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Procreate</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Digital Illustration</h4><h4 class="subtitle" lang="it">Illustrazione</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:55%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Inkscape -->
+								<a class="icon" href="https://inkscape.org/"><img src="icons\inkscape.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Inkscape</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Vector graphics</h4><h4 class="subtitle" lang="it">Grafica vettoriale</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:85%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- FL Studio -->
+								<a class="icon" href="https://www.image-line.com/"><img src="icons\fl studio.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">FL Studio</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Digital audio workstation</h4><h4 class="subtitle" lang="it">Montaggio e produzione audio</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:95%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Logic Pro -->
+								<a class="icon" href="https://www.apple.com/it/logic-pro/"><img src="icons\logic pro.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Logic Pro</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Digital audio workstation</h4><h4 class="subtitle" lang="it">Montaggio e produzione audio</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:55%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Microsoft Office -->
+								<a class="icon" href="https://www.microsoft.com/en-us/microsoft-365/get-started-with-office-2021"><img src="icons\ms office.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Microsoft Office</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Producivity</h4><h4 class="subtitle" lang="it">Produttività</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:60%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- OpenOffice -->
+								<a class="icon" href="https://www.openoffice.org/"><img src="icons\openoffice.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">OpenOffice</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Productivity</h4> <h4 class="subtitle" lang="it">Produttività</h4><!-- SUBTITLE -->
+									<div style="height: 20%; width:80%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- G Suite -->
+								<a class="icon" href="https://workspace.google.com/"><img src="icons\gsuite.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">G Suite</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Online productivity</h4><h4 class="subtitle" lang="it">Produttività online</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:100%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Business Manager -->
+								<a class="icon" href="https://business.facebook.com/"><img src="icons\business mgr.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Business Suite</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Research and advertising</h4><h4 class="subtitle" lang="it">Ricerca di mercato e inserzioni</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:85%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Google Ads -->
+								<a class="icon" href="https://ads.google.com/home/"><img src="icons\g ads.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Google Ads</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Online advertising</h4> <h4 class="subtitle" lang="it">Pubblicità online e ricerca</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:80%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Wordpress -->
+								<a class="icon" href="https://wordpress.com/"><img src="icons\wordpress.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Wordpress</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Content management system</h4><h4 class="subtitle" lang="it">Sistema di gestione dei contenuti</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:85%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- HTML -->
+								<a class="icon" href="https://www.w3schools.com/html/"><img src="icons\html.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">HTML</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Web markup language</h4><h4 class="subtitle" lang="it">Linguaggio di markup web</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:75%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- CSS -->
+								<a class="icon" href="https://www.w3schools.com/css/"><img src="icons\css.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">CSS</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Style sheet language</h4><h4 class="subtitle" lang="it">Linguaggio di formattazione di stile</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:80%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- SASS -->
+								<a class="icon" href="https://sass-lang.com/"><img src="icons\sass.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">SASS</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Preprocessing language</h4> <h4 class="subtitle" lang="it">Linguaggio di preprocessazione</h4><!-- SUBTITLE -->
+									<div style="height: 20%; width:85%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Bootstrap -->
+								<a class="icon" href="https://getbootstrap.com/"><img src="icons\bootstrap.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Bootstrap</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">CSS framework</h4> <h4 class="subtitle" lang="it">Framework CSS</h4><!-- SUBTITLE -->
+									<div style="height: 20%; width:70%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- jQuery -->
+								<a class="icon" href="https://jquery.com/"><img src="icons\jquery.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">jQuery</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">JavaScript library</h4><h4 class="subtitle" lang="it">Libreria JavaScript</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:60%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Atom -->
+								<a class="icon" href="https://atom.io/"><img src="icons\atom.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Atom</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Text and code editor</h4><h4 class="subtitle" lang="it">Editor di testo e codice</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:90%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Blender -->
+								<a class="icon" href="https://www.blender.org/"><img src="icons\blender.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Blender</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">3D computer graphics</h4><h4 class="subtitle" lang="it">Grafica digitale 3D</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:55%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Unity -->
+								<a class="icon" href="https://unity.com/"><img src="icons\unity.png"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title">Unity</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Cross-platform game engine</h4> <h4 class="subtitle" lang="it">Motore di gioco multi-piattaforma</h4> <!-- SUBTITLE -->
+									<div style="height: 20%; width:75%" class="skillbar progress-bar progress-bar-striped progress-bar-animated"role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div> <!-- SKILLBAR -->
+								</div>
+							</div>
+						</div>
+					<div class="par" id="par2">
+							<h2 class="par-title" lang="en">Certificates</h2><h2 class="par-title" lang="it">Certificati</h2>
+							<div class="slot"> <!-- Conservatorio -->
+								<a class="icon" href=""><img src="icons\laurea.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Post-secondary academic degree in Popular Guitar</h3><h3 class="title" lang="it">Diploma di laurea di 1° livello</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Conservatorio G.F. Ghedini, Cuneo (Italy)</h4><h4 class="subtitle" lang="it">Conservatorio G.F. Ghedini, Cuneo (CN)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Liceo -->
+								<a class="icon" href=""><img src="icons\diploma.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Upper secondary classical lyceum diploma</h3><h3 class="title" lang="it">Diploma di liceo classico</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Liceo Classico G. Chiabrera, Savona (Italy)</h4><h4 class="subtitle" lang="it">Liceo Classico G. Chiabrera, Savona (SV)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+						   </div>
+							<div class="slot"> <!-- Cambridge -->
+								<a class="icon" href=""><img src="icons\certificate.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Professional certificate in Game Design</h3><h3 class="title" lang="it">Certificato professionale in Game Design</h3> <!-- TITLE -->
+									<h4 class="subtitle">Cambridge Academy of Digital Games and Innovation</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Cambdrige -->
+								<a class="icon" href=""><img src="icons\english.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">English level B2 certificate in ESOL International</h3><h3 class="title" lang="it">Certificato di Inglese ESOL International livello B2</h3> <!-- TITLE -->
+									<h4 class="subtitle">University of Cambdrige, ESOL Examinations</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+						   </div>
+							<div class="slot"> <!-- Yamaha -->
+								<a class="icon" href=""><img src="icons\drums.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Yamaha Drums Grade 8</h3><h3 class="title" lang="it">Grado Yamaha 8 in batteria</h3> <!-- TITLE -->
+									<h4 class="subtitle">Yamaha Music Foundation, Grade Examination</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+							</div>
+							<div class="slot"> <!-- Web -->
+								<a class="icon" href=""><img src="icons\web.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Web Languages</h3><h3 class="title" lang="it">Linguaggi del web</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Liceo Classico G. Chiabrera, Savona (Italy)</h4><h4 class="subtitle" lang="it">Liceo Classico G. Chiabrera, Savona (SV)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+						   </div>
+							<div class="slot"> <!-- Masterclass -->
+								<a class="icon" href=""><img src="icons\sound.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Sound Technician</h3><h3 class="title" lang="it">Tecnico del Suono</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Masterclass at Conservatorio G.F. Ghedini, Cuneo (Italy)</h4><h4 class="subtitle" lang="it">Masterclass del Conservatorio G.F. Ghedini, Cuneo (CN)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+						   </div>
+							<div class="slot"> <!-- Physiopathology -->
+								<a class="icon" href=""><img src="icons\certificate.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Physiopathology of Instrumental Music Performance</h3><h3 class="title" lang="it">Physiopatologia dell'esecuzione strumentale</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Masterclass at Conservatorio G.F. Ghedini, Cuneo (Italy)</h4><h4 class="subtitle" lang="it">Masterclass del Conservatorio G.F. Ghedini, Cuneo (CN)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+						   </div>
+							<div class="slot"> <!-- Masterclass -->
+								<a class="icon" href=""><img src="icons\music.png" style="width: 8vh; height: 8vh"></a> <!-- ICON AND LINK -->
+								<div class="slot-tab"> <!-- INFO TAB -->
+									<h3 class="title" lang="en">Music conduction and Conducted Improvisation</h3><h3 class="title" lang="it">Conduzione e Improvvisazione guidata</h3> <!-- TITLE -->
+									<h4 class="subtitle" lang="en">Masterclass at Conservatorio G.F. Ghedini, Cuneo (Italy)</h4><h4 class="subtitle" lang="it">Masterclass del Conservatorio G.F. Ghedini, Cuneo (CN)</h4> <!-- SUBTITLE -->
+									<a class="link" href="!!!" lang="en">See the certificate</a><a class="link" href="!!!" lang="it">Visualizza il certificato</a> <!-- PROOF OF WORK -->
+								</div>
+							</div>
+						</div>
+				</div>
+
+			</div>
+
+			<div class="section third-sec" id="hobbies"> <!--HOBBIES SECTION-->
+				<h1 class="section-title" lang="en">Hobbies</h1><h1 class="section-title" lang="it">Passioni</h1>
+				<div class="frame"> <!--The hole-->
+
+					<div class="carousel-frame">
+						<a class="prev" onclick="carouselNavigate(-1)">&#10094;</a>
+
+						<div class="carousel-cell" id="cell-0">
+							<h3 class="title" lang="en">Literature</h3><h3 class="title" lang="it">Letteratura</h3>
+							<img src="icons\scrittura.png">
+							<p class="description" lang="en">
+								"To write is to travel without the hassle of the luggage" Salgari
+								used to say, and from a certain point of view that's exactly why
+								I love reading and writing so much: when I want to take a vacation
+								but the mateiral world won't allow me to, I do it anyway just by
+								opening a good book. Better if it's "Hitchhiker's Guide to the Galaxy".
+							</p>
+							<p class="description" lang="it">
+								"Scrivere è come viaggiare senza la seccatura dei bagagli" diceva Salgari,
+								 e da un certo punto di vista è proprio per questo motivo che mi piace
+								 leggere e scrivere: quando il mondo materiale non lo permette ma voglio
+								 prendermi comunque una vacanza, apro un bel libro. Preferibilmente Guida
+								 Galattica per gli Autostoppisti.
+							</p>
+						</div>
+						<div class="carousel-cell" id="cell-1">
+							<h3 class="title" lang="en">Astrophysics</h3><h3 class="title" lang="it">Astrofisica</h3>
+							<img src="icons\spazio.png">
+							<p class="description" lang="en">
+								Studying the laws the regulate is something that has been
+								inspiring humanity since the dawn of time, no doubt about that.
+								Despite my attempts at delving deeperinto the field, I'm afraid
+								my knowledge doesn't even scratch the amateur level, so I'll
+								limit myself to holding those who handle it in the highest regard.
+							</p>
+							<p class="description" lang="it">
+								Lo studio delle leggi che regolano il cosmo è qualcosa che ha ispirato
+								l'umanità dall'alba dei tempi, su questo non c'è dubbio. Nonostante i
+								miei tentativi di approfondire il campo temo che le mie conoscenze non
+								raggiungano nemmeno il livello amatoriale, perciò mi limito a nutrire
+								profonda stima per tutti gli scienziati che se ne occupano. In compenso
+								riesco a distruggere lo spirito di ogni aperitivo annoiando tutti con le
+								ultime notizie dal mondo della fantascienza.
+							</p>
+						</div>
+						<div class="carousel-cell" id="cell-2">
+							<h3 class="title" lang="en">Videogames</h3><h3 class="title" lang="it">Videogiochi</h3>
+							<img src="icons\videogames.png">
+							<p class="description" lang="en">
+								What fascinates me about videogames is the possibility to interact
+								with - and within - the game world in so many ways. In my youth
+								I lived online experiences which were emotionally comparable to
+								real ones: it was enough to get me interested into modding and
+								the concept of game production.
+							</p>
+							<p class="description" lang="it">
+								Ciò che mi attrae dei videogiochi è la possibilità di interagire con e
+								nel mondo di gioco. Nei miei anni di adolescenza ho vissuto in giro per
+								i server esperienze emotivamente paragonabili a quelle reali, tanto da
+								spingermi ad interessarmi al modding e approfondire il concetto di game
+								production.
+							</p>
+						</div>
+						<div class="carousel-cell" id="cell-3">
+							<h3 class="title" lang="en">History</h3><h3 class="title" lang="it">Storia</h3>
+							<img src="icons\storia.png">
+							<p class="description" lang="en">
+								Since I read as a child my first book, "Pirates of the Spanish Main"
+								by H. Cochran, I've always been fascinated by the mark left around
+								the globe by our ancestors and by knowing that a story will never
+								die, if only it's worth telling.
+							</p>
+							<p class="description" lang="it">
+								Da quando ho letto il mio primo libro da bambino, "Pirati del Mar
+								delle Antille", sono sempre stato affascinato dal marchio lasciato
+								in giro per il mondo dai nostri antenati e dal sapere che una storia,
+								se degna di essere raccontata, non morirà mai.
+							</p>
+						</div>
+
+						<a class="next" onclick="carouselNavigate(1)">&#10095;</a>
+					</div>
+
+				</div>
+			 </div>
+
+			<div class="section fourth-sec" id="contact"> <!-- CONTACTS SECTION -->
+				<h1 class="section-title" lang="en">Contacts</h1><h1 class="section-title" lang="it">Contatti</h1>
+				<div class="container">
+					<div class="photo">
+						<img src="xxx.jpg">
+					</div>
+					<ul class="contact-links">
+						<li class="link"><a class="social-link" href=""><img src="icons\facebook.png">Facebook</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\instagram.png">Instagram</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\twitter.png">Twitter</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\linkedin.png">LinkedIn</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\gmail.png">GMail</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\start2impact.png">Start2Impact</a></li>
+						<li class="link"><a class="social-link" href=""><img src="icons\github.png">GitHub</a></li>
+					</ul>
+				</div>
+				<footer>
+					<p class="credits">Made with love by NickIlism</br>La partita iva non ce l'ho</p>
+				</footer>
+			</div>
+
+
+
+
+		</div>
+
+
+
+
+
+
+
+		<script type="text/javascript"> // SCROLLER
+			document.addEventListener('scroll', function() {
+				console.log("scrolltop:"+$(window).scrollTop());
+				console.log("top home:"+$("#home").position().top)
+				console.log("top skills:"+$("#skills").position().top)
+				console.log("top hobbies:"+$("#hobbies").position().top)
+				console.log("top contact:"+$("#contact").position().top)
+				if($(window).scrollTop() >= $("#home").position().top && $(window).scrollTop() < $("#skills").position().top) {
+					console.log("HOME");
+					$("#nav-home").addClass("highlight");
+					$("#nav-skills").removeClass("highlight");
+					$("#nav-hobbies").removeClass("highlight");
+					$("#nav-contact").removeClass("highlight");
+				} else if ($(window).scrollTop() >= $("#skills").position().top-2 && $(window).scrollTop() < $("#hobbies").position().top){
+					console.log("SKILLS");
+					$("#nav-home").removeClass("highlight");
+					$("#nav-skills").addClass("highlight");
+					$("#nav-hobbies").removeClass("highlight");
+					$("#nav-contact").removeClass("highlight");
+				} else if ($(window).scrollTop() >= $("#hobbies").position().top && $(window).scrollTop() < $("#contact").position().top){
+					console.log("HOBBIES");
+					$("#nav-home").removeClass("highlight");
+					$("#nav-skills").removeClass("highlight");
+					$("#nav-hobbies").addClass("highlight");
+					$("#nav-contact").removeClass("highlight");
+				}else if ($(window).scrollTop() >= $("#contact").position().top){
+					console.log("CONTACT");
+					$("#nav-home").removeClass("highlight");
+					$("#nav-skills").removeClass("highlight");
+					$("#nav-hobbies").removeClass("highlight");
+					$("#nav-contact").addClass("highlight");
+				}
+			});
+		</script>
+
+		<script type="text/javascript"> // CAROUSEL
+			var cellIndex = 0;
+			showCell(cellIndex);
+			function carouselNavigate(n) {
+				showCell(cellIndex += n);
+			}
+			function showCell(n) {
+				var i;
+				var cells = document.getElementsByClassName("carousel-cell");
+				for (i = 0; i < cells.length; i++) {
+				  cells[i].className = cells[i].className.replace(" active", "");
+				}
+				if (n > 3) {cellIndex = 0}
+				else if (n < 0) {cellIndex = 3}
+				else {cellIndex = n}
+				console.log("Cell Index:"+cellIndex);
+				cells[cellIndex].className += " active";
+			}
+		</script>
+
+		<script type="text/javascript"> // LIGHT/DARK MODE
+			$("*").addClass("light");
+			function toggleMode() {
+				$("body *").toggleClass("light");
+				$("body *").toggleClass("dark");
+			}
+		</script>
+
+		<script type="text/javascript"> // TRANSLATOR
+			$('[lang="it"]').hide();
+			$('[lang="en"]').show();
+			$('.switch-lang').click(function() {
+			  $('[lang="en"]').toggle();
+			  $('[lang="it"]').toggle();
+			});
+		</script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
