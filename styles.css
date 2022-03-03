@@ -23,7 +23,8 @@
 .font-size-small, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-preview .certificate-link, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-subtitle, * body .page .section.fourth-sec footer p {
   font-size: calc(0.4em + 0.4vw); }
 
-.font-size-medium, * body .topnav .navigation li a h2, * body .topnav .buttons .social .cta, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-links .link h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name {
+.font-size-medium, * body .topnav .navigation li a h2, * body .topnav .buttons .social .cta, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-links .link
+h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name {
   font-size: calc(0.6em + 0.6vw); }
 
 .font-size-big, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.first-sec .frame .tab .tab-title, * body .page .section.first-sec .frame .preview .prompt, * body .page .section.first-sec .frame .preview-close, * body .page .section.second-sec .frame .par .par-title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .title {
@@ -32,7 +33,8 @@
 .font-size-logo, * body .topnav .logo h1, * body .page .section.zero-sec .frame .presentation h1 {
   font-size: calc(2em + 2vw); }
 
-.font-family-1, * body .topnav .navigation li a h2, * body .topnav .logo h1, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.zero-sec .frame .presentation h1, * body .page .section.first-sec .frame .tab .tab-links .link h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec footer p {
+.font-family-1, * body .topnav .navigation li a h2, * body .topnav .logo h1, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.zero-sec .frame .presentation h1, * body .page .section.first-sec .frame .tab .tab-links .link
+h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec footer p {
   font-family: var(--font-1); }
 
 .font-family-2, * body .topnav .buttons .social .cta, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-title, * body .page .section.first-sec .frame .preview .prompt, * body .page .section.first-sec .frame .preview-close, * body .page .section.second-sec .frame .par .par-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-preview .certificate-link, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-subtitle, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .title, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name {
@@ -44,16 +46,19 @@
 .font-weight-regular, * body .topnav .buttons .social .cta, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-title, * body .page .section.first-sec .frame .preview .prompt, * body .page .section.first-sec .frame .preview-close, * body .page .section.second-sec .frame .par .par-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-preview .certificate-link, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-subtitle, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name {
   font-weight: 400; }
 
-.font-weight-thin, * body .topnav .navigation li a h2, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.first-sec .frame .tab .tab-links .link h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.fourth-sec footer p {
+.font-weight-thin, * body .topnav .navigation li a h2, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.first-sec .frame .tab .tab-links .link
+h4, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.fourth-sec footer p {
   font-weight: 200; }
 
 .color-bg {
   color: var(--color-bg); }
 
-.color-main, * body .topnav .navigation li a h2, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.zero-sec .frame .presentation h1, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-title, * body .page .section.first-sec .frame .tab .tab-links .link h4, * body .page .section.first-sec .frame .preview .prompt, * body .page .section.second-sec .frame .par .par-title, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-preview .certificate-link, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-subtitle, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name, * body .page .section.fourth-sec footer p {
+.color-main, * body .topnav .navigation li a h2, * body .page .section .section-title, * body .page .section.zero-sec .frame .presentation p, * body .page .section.zero-sec .frame .presentation h1, * body .page .section.zero-sec p, * body .page .section.first-sec .frame .tab .tab-title, * body .page .section.first-sec .frame .tab .tab-links .link
+h4, * body .page .section.first-sec .frame .preview .prompt, * body .page .section.second-sec .frame .par .par-title, * body .page .section.second-sec .frame .par .par-content .category .category-title, * body .page .section.second-sec .frame .par .par-content .category .category-slots .slot .slot-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-preview .certificate-link, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-title, * body .page .section.second-sec .frame .par .par-content .certificate .certificate-tab .certificate-tab-subtitle, * body .page .section.third-sec .frame .carousel-frame a .arrow, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .title, * body .page .section.third-sec .frame .carousel-frame .carousel-cell .description, * body .page .section.fourth-sec .frame .contact-links .link .social-link .social-link-name, * body .page .section.fourth-sec footer p {
   color: var(--color-main); }
 
-.color-1, * body .topnav .navigation li a.active h2, * body .topnav .buttons .social .cta, * body .page .section.first-sec .frame .tab .tab-links .link h4:hover, * body .page .section.first-sec .frame .preview-close, * body .page .section.fourth-sec .frame .contact-links .link:hover .social-link .social-link-name {
+.color-1, * body .topnav .navigation li a.active h2, * body .topnav .buttons .social .cta, * body .page .section.first-sec .frame .tab .tab-links .link
+h4:hover, * body .page .section.first-sec .frame .preview-close, * body .page .section.fourth-sec .frame .contact-links .link:hover .social-link .social-link-name {
   color: var(--color-1); }
 
 .color-2, * body .topnav .navigation li a:hover h2 {
@@ -449,17 +454,40 @@
               margin: 0; }
               * body .page .section.first-sec .frame .tab .tab-links .link {
                 margin: 0;
-                padding: 0; }
+                padding: 0;
+                width: 100%; }
                 * body .page .section.first-sec .frame .tab .tab-links .link a {
                   text-decoration: none; }
+                  * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon :hover {
+                    cursor: no-drop; }
+                    * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon :hover h4 {
+                      color: grey !important;
+                      opacity: 10% !important; }
+                    * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon :hover::after {
+                      content: "		Coming soon";
+                      color: var(--color-1);
+                      animation: blinker 1s;
+                      opacity: 100; }
+                  * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon2 :hover {
+                    cursor: no-drop; }
+                    * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon2 :hover h4 {
+                      color: grey !important;
+                      opacity: 10% !important; }
+                    * body .page .section.first-sec .frame .tab .tab-links .link a.comingsoon2 :hover::before {
+                      content: "Coming soon		";
+                      color: var(--color-1);
+                      animation: blinker 1s;
+                      opacity: 100; }
                 * body .page .section.first-sec .frame .tab .tab-links .link.previewing h4 {
                   color: var(--color-2); }
-                * body .page .section.first-sec .frame .tab .tab-links .link h4 {
+                * body .page .section.first-sec .frame .tab .tab-links .link
+                h4 {
                   margin: 0;
                   cursor: pointer;
                   transition: 0.3s all;
                   white-space: nowrap; }
-                  * body .page .section.first-sec .frame .tab .tab-links .link h4:hover {
+                  * body .page .section.first-sec .frame .tab .tab-links .link
+                  h4:hover {
                     align-items: center; }
           * body .page .section.first-sec .frame .preview {
             width: 50%;
@@ -1000,6 +1028,28 @@
               display: none; }
             * body .page .section.first-sec .frame .tab .tab-title {
               margin: 0; }
+            * body .page .section.first-sec .frame .tab .tab-links .link {
+              font-family: var(--font-1); }
+              * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon {
+                cursor: no-drop; }
+                * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon h4 {
+                  color: grey !important;
+                  opacity: 50%; }
+                * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon::after {
+                  content: "		Coming soon";
+                  color: var(--color-1);
+                  animation: blinker 1s;
+                  opacity: 100; }
+              * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon2 {
+                cursor: no-drop; }
+                * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon2 h4 {
+                  color: grey !important;
+                  opacity: 50%; }
+                * body .page .section.first-sec .frame .tab .tab-links .link .comingsoon2::before {
+                  content: "Coming soon		";
+                  color: var(--color-1);
+                  animation: blinker 1s;
+                  opacity: 100; }
           * body .page .section.first-sec .frame .preview {
             display: none !important;
             width: 100%;
